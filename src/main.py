@@ -1,5 +1,7 @@
+import sys
 from pathlib import Path
 from src.rag import RAGSystem
+sys.path.append(str(Path(__file__).resolve().parent))
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
