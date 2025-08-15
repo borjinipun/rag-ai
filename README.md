@@ -1,4 +1,4 @@
-# Document Q&A LLM Application with Docker & Hugging Face
+# 📄 Document Q&A LLM Application with Docker & Hugging Face
 
 A step-by-step guide to building and deploying a **Document Question-Answering Chatbot** using **Gradio**, **LlamaIndex**, **LlamaParse**, **Mixedbread AI**, **Groq**, **Docker**, and **Hugging Face Spaces**.
 
@@ -11,23 +11,26 @@ This project demonstrates how to:
 - Package and deploy the application using **Docker** to **Hugging Face Spaces**.
 
 ### **Tools Used**
-- **Gradio** – UI for document upload & chat
-- **LlamaCloud / LlamaParse** – Parse multiple document formats
-- **Mixedbread AI** – Generate document & query embeddings
-- **Groq** – Access high-speed LLM responses (`llama-3.1-70b-versatile`)
-- **LlamaIndex** – Orchestrate RAG pipeline
-- **Docker** – Containerization
-- **Hugging Face Spaces** – Cloud deployment
+| Tool               | Purpose |
+|--------------------|---------|
+| **Gradio**         | UI for document upload & chat |
+| **LlamaCloud / LlamaParse** | Parse multiple document formats |
+| **Mixedbread AI**  | Generate document & query embeddings |
+| **Groq**           | Access high-speed LLM responses (`llama-3.1-70b-versatile`) |
+| **LlamaIndex**     | Orchestrate RAG pipeline |
+| **Docker**         | Containerization |
+| **Hugging Face Spaces** | Cloud deployment |
 
 ---
 
 ## 📂 Project Structure
-├── app.py # Main application
-├── requirements.txt # Python dependencies
-├── Dockerfile # Container setup
-├── .env # API keys (Not committed to Git)
-└── .gitignore # Ignore sensitive files
-
+```plaintext
+.
+├── app.py                # Main application
+├── requirements.txt      # Python dependencies
+├── Dockerfile            # Container setup
+├── .env                  # API keys (Not committed to Git)
+└── .gitignore            # Ignore sensitive files
 
 ---
 
